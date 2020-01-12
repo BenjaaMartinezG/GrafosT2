@@ -1,0 +1,59 @@
+{
+  "name": "noam",
+  "preferGlobal": false,
+  "version": "0.0.4",
+  "author": "Ivan Zuzak <izuzak@gmail.com> (http://ivanzuzak.info)",
+  "description": "JavaScript library for working with automata and formal grammars for regular and context-free languages",
+  "bugs": "https://github.com/izuzak/noam/issues",
+  "homepage": "https://github.com/izuzak/noam",
+  "scripts": {
+    "test": "grunt --verbose",
+    "build": "grunt",
+    "benchmark": "node ./benchmarks/benchmark.js"
+  },
+  "main": "./lib/node/noam.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izuzak/noam.git"
+  },
+  "contributors": [
+    "Ivan Budiselic <ibudiselic@gmail.com> (https://github.com/ibudiselic)",
+    "Vedrana Jankovic <vedrana.jankovic@gmail.com> (http://vedri.ca/)"
+  ],
+  "keywords": [
+    "automata",
+    "finite-state machines",
+    "formal grammars",
+    "regular languages",
+    "regular expressions",
+    "context-free languages",
+    "chomsky hierarchy"
+  ],
+  "dependencies": {
+    "cli-table": ">=0.2.0",
+    "lodash": "^4.17.11",
+    "structure.js": ">=0.0.x"
+  },
+  "devDependencies": {
+    "benchtable": ">=0.0.2",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.7",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-jasmine-node": ">=0.1.0",
+    "grunt-jsvalidate": ">=0.2.1",
+    "istanbul": ">=0.1.25",
+    "jasmine-node": ">=1.7.0"
+  },
+  "bundleDependencies": [],
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://raw.github.com/izuzak/noam/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">=0.6.10"
+  }
+}
