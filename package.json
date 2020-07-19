@@ -31,7 +31,7 @@
   ],
   "dependencies": {
     "cli-table": ">=0.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "structure.js": ">=0.0.x"
   },
   "devDependencies": {
